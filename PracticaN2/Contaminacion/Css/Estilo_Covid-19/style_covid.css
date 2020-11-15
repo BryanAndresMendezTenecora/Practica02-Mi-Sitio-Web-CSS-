@@ -1,0 +1,324 @@
+@font-face{
+    font-family: MiFuente;
+    src: url(../../Fuente/IstokWeb-Regular.ttf);
+}
+* {
+    font-family: 'MiFuente';
+}
+
+h1{
+    background-color: rgb(22,24,64);
+    color: white;
+}
+
+section > h2{
+    background-color:rgb(26,62,77);
+    color: white;
+}
+
+h2[class="cont"]{
+    background-color: rgb(22,24,64);
+    color: white;
+}
+
+#cuerpo{
+    border: 1px solid black;
+    position: relative;
+    background-color: rgb(81,197,193);
+}
+
+.buscador{
+    float: left;
+    width: 70%;
+    margin: 5px;
+}
+
+.input_bus{
+    float: left;
+    margin-top: 3px ;
+    margin-left: 30px ;
+    width: 50%;
+    max-width: 100%;
+}
+
+.img_bus{
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    max-width: 100%;
+}
+.imagenes{
+    float: left;
+    width: 28%;
+    margin: 5px;
+}
+.img_1{
+    float: left;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 10px;
+    max-width: 100%;
+}
+
+.img_google{
+    float: left;
+    width: 50px;
+    height: 50px;
+    max-width: 100%;
+}
+
+.img_youtube{
+    float: left;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    max-width: 100%;
+}
+
+.img_twitter{
+    float: left;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    max-width: 100%;
+}
+
+#menu{
+    clear: both;
+}
+
+#menu ul li {
+
+    font-size: 1em;
+    display: table-cell;
+    width: 7%;
+    text-align: center;
+    margin-right: 2%;
+    border: thin solid black;
+    border-collapse: collapse;
+    background-color: rgb(201,216,237)
+}
+
+
+#menu ul li a {
+    color: #222;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 8%;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+#menu ul li a:hover {
+    background-color: blue;
+    color: white;
+}
+
+.contenido{
+    clear: both;
+    border: 1px solid red;
+    float: left;
+    width: 18%;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.introduccion{
+    float: left;
+    border: 3px solid chartreuse;
+    width: 50%;
+}
+.img_medico{
+    float: left;
+    width: 30%;
+    margin: 5px;
+}
+
+.not{
+    margin-left: 10px;
+    float: left;
+    width: 29%;
+}
+
+.y_actualidad{
+    display: block;
+    width: 300px;
+    height: 200px;
+    margin: auto;
+    max-width: 100%;
+}
+
+#concepto{
+    clear: both;
+    float: right;
+    width: 80%;
+}
+
+#alivio{
+    float: left;
+    width: 62%;
+}
+
+.img_planeta{
+    float: left;
+    width: 40%;
+    margin: 5px;
+}
+
+.lateral{
+    float: left;
+    width: 35%;
+}
+
+.contador{
+    display: block;
+    width: 300px;
+    height: 200px;
+    margin: auto;
+    max-width: 100%;
+}
+
+.emergencia{
+    display: block;
+    width: 300px;
+    height: 200px;
+    margin: auto;
+    max-width: 100%;
+}
+
+#primer_pais{
+    clear: both;
+    float: right;
+    width: 30%;
+}
+
+.img_china{
+    display: block;
+    width: 60%;
+    margin: auto;
+}
+
+#italia{
+    float: right;
+
+    width: 50%;
+}
+
+.img_realidad{
+    display: block;
+    width: 60%;
+    margin: auto;
+    max-width: 100%;
+}
+#recapacitar{
+    clear: both;
+    float: right;
+    width: 80%;
+}
+
+#realidad{
+    float: left;
+    width: 63%;
+}
+.covid_noticias{
+    float: left;
+    width: 35%;
+}
+.y_noticia{
+    display: block;
+    height: 325px;
+    width: 275px;
+    margin: auto;
+    max-width: 100%;
+}
+#enfrentar{
+    clear: both;
+    float: right;
+    width: 80%;
+}
+
+.arti_climatico{
+    float: left;
+    width: 62%;
+    margin: 5px;
+}
+
+.img_nitrogeno{
+    float: right;
+    width: 400px;
+    height: 480px;
+}
+
+.noticia_climatico{
+    float: left;
+    width: 35%;
+}
+
+.y_climatico{
+    display: block;
+    height: 300px;
+    width: 400px;
+    margin: auto;
+    max-width: 100%;
+}
+
+#pie{
+    clear: both;
+    border: 1px solid black;
+    background-color: rgb(22,24,64);
+}
+
+.autor{
+    float: left;
+    width: 45%;
+    background-color: rgb(22,24,64);
+}
+
+.internet{
+    float: left;
+    width: 18%;
+    margin-top: 3px;
+    background-color: rgb(22,24,64);
+}
+.img_usuario{
+    float: left;
+    height: 85px;
+    width: 93px;
+    max-width: 100%;
+}
+
+.img_insta{
+    float: left;
+    height: 85px;
+    width: 93px;
+    max-width: 100%;
+}
+.img_gmail{
+    float: left;
+    height: 85px;
+    width: 93px;
+    max-width: 100%;
+}
+
+.img_facebook{
+    float: left;
+    height: 85px;
+    width: 93px;
+    max-width: 100%;
+}
+
+.logo_u{
+    float: left;
+    width: 37%;
+    background-color: rgb(22,24,64);
+}
+.img_ups{
+    display: block;
+    height: 172px;
+    width: 172px;
+    margin: auto;
+    max-width: 100%;
+}
+
