@@ -15,11 +15,22 @@
         <meta name="keywords" content="Agua, contaminación">
         <title>Contaminación del Agua</title>
         <link rel="icon" href="Contaminacion/images/logo.jpg" sizes="16x16">
+        <link rel="stylesheet" href="../../Css/Estilo_Cont_Agua/style_agua.css">
     </head>
-    <body>
-        <header>
+    <body id="cuerpo">
+        <header id="cabecera">
             <h1>Contaminación del Agua</h1>
-            <div>
+            <div class="buscador">
+                <input class="input_bus" name="text" placeholder="Buscar">
+                <img class="img_bus" src="../../images/buscador3.jpg"> 
+            </div>
+            <div class="imagenes">
+                <img class="img_1" src="../../images/usuario2.jpg">
+                <img class="img_google" src="../../images/google.png">
+                <img class="img_youtube" src="../../images/youtube.png">
+                <img class="img_twitter" src="../../images/twitter.png">
+            </div>
+            <div id="menu">
                 <nav>
                     <ul>
                         <li><a href="../../../index.html">Inicio</a></li>
@@ -32,8 +43,18 @@
                     </ul>
                 </nav>
             </div>
-            <img src="../../images/botella.jpg" alt="Una botella en el oceano" width="700" height="450">
-            <audio src="../../audio/Sonido-Rio.mp3" controls></audio>
+            <!--<audio src="../../audio/Sonido-Rio.mp3" controls></audio>-->
+            <nav class="contenido">
+                <h2>Contenido</h2>
+                <ol>
+                    <li><a href="#fuentes">Fuentes de Contaminación</a></li>
+                    <li><a href="#contaminantes">Principales contaminantes del agua</a></li>
+                    <li><a href="#efectos">Efectos de la Contaminacion del agua en la salud</a></li>
+                    <li><a href="#enfermedades">Cuadro de enfermedaddes por patógenos contaminantes del agua</a></li>
+                </ol>
+            </nav>
+            <div class="introduccion">
+            <img class="img_botella" src="../../images/botella.jpg" alt="Una botella en el oceano">
             <p>El agua es un recurso natural indispensable para la vida. Constituye una necesidad
                 primordial para la salud, por ello debe considerarse uno de los derechos humanos básicos.
                 En las sociedades actuales el agua se ha convertido en un bien muy preciado, debido a la
@@ -50,30 +71,11 @@
                     tanto las superficiales como las subterráneas</li>
                 <li>Al incremento de las demandas.</li>
             </ol>
-            <nav>
-                <h2>Contenido de esta página</h2>
-                <ol>
-                    <li><a href="#fuentes">Fuentes de Contaminación</a></li>
-                    <li><a href="#contaminantes">Principales contaminantes del agua</a></li>
-                    <li><a href="#efectos">Efectos de la Contaminacion del agua en la salud</a></li>
-                    <li><a href="#enfermedades">Cuadro de enfermedaddes por patógenos contaminantes del agua</a></li>
-                </ol>
-            </nav>
+            </div>
         </header>
-        <section>
-            <h2>&#8226;Contenido de esta página</h2>
-            <header>
-                <nav>
-                    <ul>
-                        <li><a href="#fuentes">Fuentes de Contaminación</a></li>
-                        <li><a href="#contaminantes">Principales contaminantes del agua</a></li>
-                        <li><a href="#efectos">Efectos de la Contaminacion del agua en la salud</a></li>
-                        <li><a href="#enfermedades">Cuadro de enfermedaddes por patógenos contaminantes del agua</a></li>
-                    </ul>
-                </nav>
-            </header>
+        <section id="contaminacion">
+            <h2>Fuentes de Contaminación</h2>
             <article id="fuentes">
-                <h2>Fuentes de Contaminación</h2>
                 <h3>&#8226; Fuentes Naturales</h3>
                 <p>Dependiendo de los terrenos que atraviesa el agua puede contener componentes de origen
                     natural procedentes del contacto con la atmósfera y el suelo (Ej. Sales minerales, calcio,
@@ -83,13 +85,13 @@
                 <p>Producidas como consecuencia de las actividades humanas. El
                     desarrollo industrial ha provocado la presencia de ciertos componentes que son peligrosos
                     para el medio ambiente y para los organismos y difíciles de eliminar</p>
-                <img src="../../images/rio.jpg" alt="Rio" width="650" height="380">
+                <img class="img_rio" src="../../images/rio.jpg" alt="Rio">
             </article>
-            <aside>
+            <aside class="asi_fuentes">
                 <h3>Noticia:Alertan por contaminación de agua en Sonora</h3>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/MDnZMcwhhlI"></iframe>
+                <iframe class="noticia_cont" width="560" height="315" src="https://www.youtube.com/embed/MDnZMcwhhlI"></iframe>
             </aside>
-            <aside>
+            <aside class="asi_fuentes2">
                 <h3>Fundacion</h3>
                 <a href="https://www.wearewater.org/es/la-fundacion_253356">We are water</a>
                 <p>Somos una organización sin ánimo de lucro, creada en 2010 con el objetivo de contribuir 
@@ -97,9 +99,9 @@
             </aside>
         </section>
         <br>
-        <section>
+        <section id="id_contaminantes">
             <h2>Contenido</h2>
-                <header>
+                <header class="cabecera2">
                     <ul>
                         <li><a href="#fuentes">Fuentes de Contaminación</a></li>
                         <li><a href="#contaminantes">Principales contaminantes del agua</a></li>
@@ -109,10 +111,10 @@
                 </header>
             <article id="contaminantes">
                 <h2 > Principales contaminantes del Agua</h2>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/IMxOYSUSLmU"></iframe>
+                <iframe class="y_cont_agua" src="https://www.youtube.com/embed/IMxOYSUSLmU"></iframe>
                 <p>Hay un gran número de contaminantes del agua que se pueden clasificar en los
                     siguientes ocho grupos:</p>
-                <div>
+                <div class="grupo">
                     <ul>
                         <li><p><b>Microorganismos patógenos</b>. Son los diferentes tipos de bacterias, virus,
                             protozoos y otros organismos que transmiten enfermedades como el cólera, tifus,
@@ -142,17 +144,18 @@
                             disminuye su capacidad de contener oxígeno y afecta a la vida de los organismos.</p></li>
                     </ul>
                 </div>
-                <aside>
+                <aside class="asi_noticias3">
                     <h3>Noticas</h3>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/kInSLT4GmHI"></iframe>
+                    <iframe class="y_cont_agua2" width="560" height="315" src="https://www.youtube.com/embed/kInSLT4GmHI"></iframe>
                 </aside>
             </article>
         </section>
         <br>
-        <section>
+        <div class="separador"></div>
+        <section id="agua">
             <h2>Contenido</h2>
-            <header>
-                <img src="../../images/esqueleto.jpg" alt="Residuos votados en el mar" height="300" width="600">
+            <header class="cabecera3">
+               <!-- <img class="img_esqueleto" src="../../images/esqueleto.jpg" alt="Residuos votados en el mar"> -->
                 <ul>
                     <li><a href="#fuentes">Fuentes de Contaminación</a></li>
                     <li><a href="#contaminantes">Principales contaminantes del agua</a></li>
@@ -161,6 +164,7 @@
                 </ul>
             </header>
             <article id="efectos">
+                <img class="img_nino" src="../../images/nino.jpg" alt="Un niño bebiendo agua contaminada">
                 <h2>Efectos de la Contaminación del agua en la salud</h2>
                 <p>La contaminación del agua representa un gran problema de salud Pública. Los mecanismos
                     de transmisión de las enfermedades pueden ser:
@@ -179,13 +183,12 @@
                         humanos. Finalmente, algunos insectos que se reproducen en el agua son transmisores de
                         enfermedades como el paludismo o la fiebre amarilla.</p>
                 </blockquote>
-                <img src="../../images/nino.jpg" alt="Un niño bebiendo agua contaminada" height="300" width="500">
             </article>
         </section>
         <br>
-        <section>
+        <section id="id_enfermedades">
             <h2 id="enfermedades">Cuadro de enfermedades por patógenos contaminantes del agua</h2>
-            <header>
+            <header class="cabecera4">
                 <ul>
                     <li><a href="#fuentes">Fuentes de Contaminación</a></li>
                     <li><a href="#contaminantes">Principales contaminantes del agua</a></li>
@@ -193,7 +196,7 @@
                     <li><a href="#enfermedades">Cuadro de enfermedaddes por patógenos contaminantes del agua</a></li>
                 </ul>
             </header>
-            <div>
+            <div class="tabla">
                 <table>
                     <tr>
                     <th>Microorganismo</th>
@@ -231,11 +234,22 @@
             </div>
         </section>
         <br>
-        <footer>
-            <p><b>Estudiante:</b> Bryan Andres Mendez Tenecora</p>
-            <p><b>Correo Electrónico:</b><a href="mailto:bmendezt@est.ups.edu.ec">bmendezt@est.ups.edu.ec</a></p>
-            <p><b>Telefono:</b><a href="tel:+593994625397">(593) 994625397</a></p>
-            <p> <small>&copy; Todos los derechos reservados al autor</small></p>
+        <footer id="pie">
+            <div class="autor">
+                <p><b>Estudiante:</b> Bryan Andres Mendez Tenecora</p>
+                <p><b>Correo Electrónico:</b><a href="mailto:bmendezt@est.ups.edu.ec">bmendezt@est.ups.edu.ec</a></p>
+                <p><b>Telefono:</b><a href="tel:+593994625397">(593) 994625397</a></p>
+                <p><small>&copy; Todos los derechos reservados al autor</small></p>
+            </div>
+             <div class="internet">
+                <a href="../../Docs/Contacto/contacto.html"><img class="img_usuario" src="../../images/usuario.jpg"></a>
+                <a href="https://www.instagram.com"><img class="img_insta" src="../../images/insta.jpg"></a>
+                <a href="https://mail.google.com"><img class="img_gmail" src="../../images/gmail.jpg"></a>
+                <a href="https://www.facebook.com"><img class="img_facebook" src="../../images/facebook.png"></a>
+            </div>
+             <div class="logo_u">
+                <a href="https://www.ups.edu.ec/"><img class="img_ups" src="../../images/ups.png">
+            </div>
         </footer>
     </body>
 </html>
