@@ -1,0 +1,322 @@
+@font-face{
+    font-family: MiFuente;
+    src: url(../../Fuente/IstokWeb-Regular.ttf);
+}
+* {
+    font-family: 'MiFuente';
+}
+
+h1{
+    background-color: rgb(22,24,64);
+    color: white;
+}
+
+section > h2{
+    background-color:rgb(26,62,77);
+    color: white;
+}
+
+h2[class="cont"]{
+    background-color: rgb(22,24,64);
+    color: white;
+}
+
+article > h2{
+    background-color:rgb(26,62,77);
+    color: white;
+}
+#cuerpo{
+    border: 1px solid black;
+    position: relative;
+    margin: 10px;
+    background-color: rgb(81,197,193);
+}
+
+.buscador{
+    float: left;
+    width: 70%;
+    margin: 5px;
+}
+
+.input_bus{
+    float: left;
+    margin-top: 3px ;
+    margin-left: 30px ;
+    width: 50%;
+    max-width: 100%;
+}
+
+.img_bus{
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    max-width: 100%;
+}
+.imagenes{
+    float: left;
+    width: 28%;
+    margin: 5px;
+}
+.img_1{
+    float: left;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 10px;
+    max-width: 100%;
+}
+
+.img_google{
+    float: left;
+    width: 50px;
+    height: 50px;
+    max-width: 100%;
+}
+
+.img_youtube{
+    float: left;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    max-width: 100%;
+}
+
+.img_twitter{
+    float: left;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    max-width: 100%;
+}
+
+.menu{
+    clear: both;
+}
+
+.menu ul li {
+
+    font-size: 1em;
+    display: table-cell;
+    width: 7%;
+    text-align: center;
+    margin-right: 2%;
+    border: thin solid black;
+    border-collapse: collapse;
+    background-color: rgb(201,216,237)
+}
+
+
+.menu ul li a {
+    color: #222;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 8%;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+.menu ul li a:hover {
+    background-color: blue;
+    color: white;
+}
+
+.contenido{
+    clear: both;
+    border: 1px solid red;
+    float: left;
+    width: 25%;
+    font-size: 20px;
+    margin: 10px;
+}
+
+
+.introduccion{
+    border: 3px solid chartreuse;
+    float: left;
+    width: 70%;
+}
+.img_problemas{
+    float: left;
+    width: 20%;
+    margin: 20px;
+    max-width: 100%;
+}
+
+
+
+#concepto{
+    border: 2px solid black;
+   float: left;
+   width: 72%;
+}
+
+#escasez{
+    float: left;
+    width: 95%;
+}
+.img_escasez{
+    float: right;
+    width: 40%;
+    margin: 20px;
+    max-width: 100%;
+}
+
+#consumo{
+    clear: both;
+}
+.img_mundo{
+    display: block;
+    width: 80%;
+    margin: auto;
+}
+
+
+#salud{
+    clear: both;
+}
+
+.img_salud{
+    float: left;
+    height: 400px;
+    width: 500px;
+    margin: 20px;
+    max-width: 100%;
+}
+
+#cambio_climatico{
+    clear: both;
+}
+
+.img_palmeras{
+    float: left;
+    height: 200px;
+    width: 500px;
+    margin: 20px;
+    max-width: 100%;
+}
+.cont_climatico ul li{
+    margin-right: 10px;
+}
+
+#mar{
+    clear: both;
+}
+
+.img_mar{
+    display: block;
+    height: 300px;
+    width: 700px;
+    margin: auto;
+    max-width: 100%;
+}
+
+#biodiversidad{
+    clear: both;
+}
+
+.img_osos{
+    float: right;
+    height: 250px;
+    width: 500px;
+    max-width: 100%;
+}
+
+.bloque_asi{
+    clear: both;
+    border: 1px solid white;
+}
+.asi_noticias1{
+    clear: both;
+    float: left;
+    width: 48%;
+
+}
+
+.cont_eco p{
+    display: block;
+    width: 100%;
+}
+.asi_noticias2{
+    float: left;
+    width: 51%;
+}
+
+.y_biodiversidad{
+    display: block;
+    height: 200px;
+    width: 430px;
+    margin: auto;
+
+}
+
+#resolucion{
+    clear: both;
+}
+
+.img_ballena{
+    display: block;
+    height: 500px;
+    width: 1000px;
+    margin: auto;
+}
+
+#pie{
+    clear: both;
+    border: 1px solid black;
+    background-color: rgb(22,24,64);
+}
+
+.autor{
+    float: left;
+    width: 45%;
+    background-color: rgb(22,24,64);
+}
+
+.internet{
+    float: left;
+    width: 18%;
+    margin-top: 3px;
+    background-color: rgb(22,24,64);
+}
+.img_usuario{
+    float: left;
+    height: 85px;
+    width: 93px;
+    max-width: 100%;
+}
+
+.img_insta{
+    float: left;
+    height: 85px;
+    width: 93px;
+    max-width: 100%;
+}
+.img_gmail{
+    float: left;
+    height: 85px;
+    width: 93px;
+    max-width: 100%;
+}
+
+.img_facebook{
+    float: left;
+    height: 85px;
+    width: 93px;
+    max-width: 100%;
+}
+
+.logo_u{
+    float: left;
+    width: 37%;
+    background-color: rgb(22,24,64);
+}
+.img_ups{
+    display: block;
+    height: 172px;
+    width: 172px;
+    margin: auto;
+    max-width: 100%;
+}
+
+
