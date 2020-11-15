@@ -5,11 +5,22 @@
         <meta name="keywords" content="contaminación,atmosfèrica,cambio climático">
         <title>Contaminación atmosférica</title>
         <link rel="icon" href="../../images/logo.jpg" sizes="16x16">
+        <link rel="stylesheet" href="../../Css/Estilo_Cont_Atmosferica/style_atmosferica.css">
     </head>
-    <body>
-        <header>
+    <body id="cuerpo">
+        <header id="cabecera">
             <h1>Contaminación de la Atmósfera</h1>
-            <nav>
+            <div class="buscador">
+            <input class="input_bus" name="text" placeholder="Buscar">
+            <img class="img_bus" src="../../images/buscador3.jpg"> 
+            </div>
+            <div class="imagenes">
+                <img class="img_1" src="../../images/usuario2.jpg">
+                <img class="img_google" src="../../images/google.png">
+                <img class="img_youtube" src="../../images/youtube.png">
+                <img class="img_twitter" src="../../images/twitter.png">
+            </div>
+            <nav class="menu">
                 <ul>
                     <li><a href="../../../index.html">Inicio</a></li>
                     <li><a href="../ContaminacionMetalesPesados/metales-pesados.html">Contaminación de los Metales Pesados</a></li>
@@ -20,8 +31,7 @@
                     <li><a href="../Problemas_del_medio_Ambiente/problemas.html">Problemas del medio Ambiente</a></li>
                 </ul>
             </nav>
-            <img src="../../images/atmosfera.jpg" alt="Una fabrica desechando humo" width="700" height="400">
-            <div>
+            <div class="navegador">
                 <h2>Contenido</h2>
                     <ol>
                         <li><a href="#atmosférica">Que es la contaminación atmosfèrica</a></li>
@@ -29,14 +39,17 @@
                         <li><a href="#efectos">Efectos de los gases de la atmósfera en el clima</a></li>
                     </ol>
             </div>
-            <audio src="../../audio/Sonido-Rio.mp3" controls autoplay></audio>
-            <p>Uno de los principales problemas a los que nos enfrentamos como género humano <b>es la supervivencia del planeta</b>. Los altos niveles 
+            <!--<audio src="../../audio/Sonido-Rio.mp3" controls autoplay></audio> -->
+            <div class="intro">
+            <img class="fabrica1" src="../../images/atmosfera.jpg" alt="Una fabrica desechando humo" >
+            <p class="introduccion">Uno de los principales problemas a los que nos enfrentamos como género humano <b>es la supervivencia del planeta</b>. Los altos niveles 
                 de contaminación y las malas prácticas de desarrollo han provocado que actualmente la Tierra haya dejado de ser un lugar acogedor, 
                 cálido y sostenible.</p>
-            <p>Para empezar, deberemos situarnos en el origen de la cuestión. Entre las principales causas se encuentra la contaminación de la atmósfera, 
+            <p class="introduccion">Para empezar, deberemos situarnos en el origen de la cuestión. Entre las principales causas se encuentra la contaminación de la atmósfera, 
                 cuyos niveles han aumentado considerablemente en las últimas décadas.</p>
+            </div>
         </header>
-        <section>
+        <section id="definicion">
             <h2>&#8226;DENIFIÓN:</h2>
             <article id="atmosférica">
                 <h2>Que es la contaminación atmosfèrica</h2>
@@ -44,24 +57,25 @@
                     implique molestias o riesgo para la salud de las personas y de los demás seres vivos, vienen de cualquier 
                     naturaleza,así como que puedan atacar a distintos materiales, reducir la visibilidad o producir olores desagradables</p>
             </article>
-            <aside>
+            <aside class="estudio">
                 <h3>Aire contaminado cuesta a España 926 euros por persona al año, según estudio</h3>
                 <a href="https://www.efeverde.com/noticias/aire-contaminado-cuesta-espana-926-euros-por-persona-al-ano-segun-estudio/">
-                    <img src="../../images/barcelona.jpg" alt="Contaminación atmosférica en españa" height="350" width="500"></a>
+                    <img class="img_espana" src="../../images/barcelona.jpg" alt="Contaminación atmosférica en españa" ></a>
             </aside>
-            <aside>
+            <aside class="estudio2">
                 <h3>Finaliza el segundo episodio de contaminación del aire en el Valle de Aburrá</h3>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/p16mt7OxVPY"></iframe>
+                <iframe class="y_cont"  src="https://www.youtube.com/embed/p16mt7OxVPY"></iframe>
             </aside>
         </section>
         <br>
-        <section>
+        <section id="idcausas">
             <h2 id="causas">¿Cuáles son las causas de la contaminación de la atmósfera?</h2>
-            <img src="../../images/bicicleta.jpg" alt="Contaminación atmosférica" height="350" width="500">
+            <img class="img_causas"src="../../images/bicicleta.jpg" alt="Contaminación atmosférica" >
             <p>Esa acumulación de gases en la atmósfera ha provocado la aparición de grandes fisuras en la capa de ozono, lo cual ha generado 
                 otros fenómenos de notable impacto negativo, como el cambio climático y el calentamiento global, de los cuales te hemos 
                 hablado en numerosas ocasiones en este blog. </p>
             <p>Son diversas las causas que explican la contaminación de la atmósfera. Algunas de ellas se pueden resumir de la siguiente manera:</p>
+            <div class="seccion_block">
             <blockquote>
                 <h3>&#8226;Extracciones mineras</h3>
                 <p>Muchos minerales se obtienen gracias a productos químicos y el uso de maquinaria pesada que contamina el aire de partículas de polvo y gases. 
@@ -89,9 +103,10 @@
                     evita que muchos de los gases contaminantes que circulan en el aire puedan ser neutralizados y el aire se limpie. 
                     Los árboles cumplen esa función.</p>
             </blockquote>
+            </div>
         </section>
         <br>
-        <section>
+        <section id="id_efectos">
             <h2 id="efectos">Efectos de los gases de la atmósfera en el clima</h2>
             <article>
                 <h3>Efectos climáticos</h3>
@@ -111,28 +126,39 @@
                     científicos consideran que como consecuencia se está produciendo el calentamiento global. Otros gases que
                     contribuyen al problema incluyen los clorofluorocarbonos (<abbr>CFCs</abbr>), el metano, los óxidos nitrosos y el ozono</p>
             </article>
-            <article>
+            <article class="ozono">
                 <h3>Daño a la capa de ozono</h3>
+                <img class="img_ozono" src="../../images/atardecer.jpg" alt="Un atardecer con una fabrica">
                 <p>El ozono es una forma de oxígeno O<sub>3</sub> que se encuentra en la atmósfera superior de la
                     tierra. El daño a la capa de ozono se produce principalmente por el uso de clorofluorocarbonos (<abbr>CFCs</abbr>). La capa
                     fina de moléculas de ozono en la atmósfera absorbe algunos de los rayos ultravioletas (<abbr>UV</abbr>) antes de que lleguen a
                     la superficie de la tierra, con lo cual se hace posible la vida en la tierra. El agotamiento del ozono <em>produce niveles
                     más altos de radiación UV en la tierra</em>, con lo cual se pone en peligro tanto a plantas como a animales.</p>
-                    <img src="../../images/atardecer.jpg" alt="Un atardecer con una fabrica" width="750" height="400">
             </article>
         </section>
         <br>
-        <section>
+        <section id="reflexion">
             <h2>Video de Reflexión</h2>
             <!--video. Inserta un video-->
-            <video src="../../video/siembra-tu-futuro-la-contaminacion-del-aire.mp4" controls muted width="700" ></video>
+            <video class="video" src="../../video/siembra-tu-futuro-la-contaminacion-del-aire.mp4" controls muted width="700" ></video>
         </section>
         <br>
-        <footer>
-            <p><b>Estudiante:</b> Bryan Andres Mendez Tenecora</p>
-            <p><b>Correo Electrónico:</b><a href="mailto:bmendezt@est.ups.edu.ec">bmendezt@est.ups.edu.ec</a></p>
-            <p><b>Telefono:</b><a href="tel:+593994625397">(593) 994625397</a></p>
-            <p> <small>&copy; Todos los derechos reservados al autor</small></p>
+        <footer id="pie">
+            <div class="autor">
+                <p><b>Estudiante:</b> Bryan Andres Mendez Tenecora</p>
+                <p><b>Correo Electrónico:</b><a href="mailto:bmendezt@est.ups.edu.ec">bmendezt@est.ups.edu.ec</a></p>
+                <p><b>Telefono:</b><a href="tel:+593994625397">(593) 994625397</a></p>
+                <p><small>&copy; Todos los derechos reservados al autor</small></p>
+            </div>
+            <div class="internet">
+                <a href="../../Docs/Contacto/contacto.html"><img class="img_usuario" src="../../images/usuario.jpg"></a>
+                <a href="https://www.instagram.com"><img class="img_insta" src="../../images/insta.jpg"></a>
+                <a href="https://mail.google.com"><img class="img_gmail" src="../../images/gmail.jpg"></a>
+                <a href="https://www.facebook.com"><img class="img_facebook" src="../../images/facebook.png"></a>
+            </div>
+            <div class="logo_u">
+                <a href="https://www.ups.edu.ec/"><img class="img_ups" src="../../images/ups.png">
+            </div>
         </footer>
     </body>
 </html>
