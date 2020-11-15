@@ -1,0 +1,281 @@
+@font-face{
+    font-family: MiFuente;
+    src: url(../../Fuente/IstokWeb-Regular.ttf);
+}
+* {
+    font-family: 'MiFuente';
+}
+
+h1{
+    background-color: rgb(22,24,64);
+    color: white;
+}
+
+h2{
+    background-color:rgb(26,62,77);
+    color: white;
+}
+
+
+h1{
+    background-color: rgb(22,24,64);
+    color: white;
+}
+
+section > h2{
+    background-color:rgb(26,62,77);
+    color: white;
+}
+
+
+#cuerpo{
+    border: 1px solid black;
+    position: relative;
+    background-color: rgb(81,197,193);
+}
+
+.buscador{
+    float: left;
+    width: 70%;
+    margin: 5px;
+}
+
+.input_bus{
+    float: left;
+    margin-top: 3px ;
+    margin-left: 30px ;
+    width: 50%;
+    max-width: 100%;
+}
+
+.img_bus{
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    max-width: 100%;
+}
+.imagenes{
+    float: left;
+    width: 28%;
+    margin: 5px;
+}
+.img_1{
+    float: left;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 10px;
+    max-width: 100%;
+}
+
+.img_google{
+    float: left;
+    width: 50px;
+    height: 50px;
+    max-width: 100%;
+}
+
+.img_youtube{
+    float: left;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    max-width: 100%;
+}
+
+.img_twitter{
+    float: left;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    max-width: 100%;
+}
+
+#menu{
+    clear: both;
+}
+
+.menu ul li {
+
+    font-size: 1em;
+    display: table-cell;
+    width: 7%;
+    text-align: center;
+    margin-right: 2%;
+    border: thin solid black;
+    border-collapse: collapse;
+    background-color: rgb(201,216,237)
+}
+
+
+.menu ul li a {
+    color: #222;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 8%;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+.menu ul li a:hover {
+    background-color: blue;
+    color: white;
+}
+.navegador{
+    border: 1px solid red;
+    float: left;
+    width: 30%;
+    margin: 10px;
+    
+}
+.intro{
+
+    border: 5px solid chartreuse;
+    padding:  5px;
+    float: left;
+    width: 65%;
+
+}
+
+.fabrica1{
+    float: left;
+    width: 35%;
+    height: 25%;
+    margin: 5px;
+}
+
+.introduccion{
+    font-style: initial;
+}
+
+#definicion{
+    clear: both;
+    border: 1px solid black;
+    float: right;
+    width: 66%;
+    margin-right: 25px;
+
+}
+
+.estudio{
+    float: left;
+    width: 48%;
+}
+
+.estudio2{
+    float: left;
+    width: 50%;
+
+}
+
+.img_espana{
+    width: 70%;
+    margin: 20px;
+    
+}
+
+.y_cont{
+    margin: 20px;
+    width: 70%;
+}
+
+#idcausas{
+    clear: both;
+    border: 1px solid black;
+    float: right;
+    width: 66%;
+    margin-right: 25px;
+}
+
+.img_causas{
+    width: 70%;
+    display: block;
+    margin: auto;
+}
+
+#id_efectos{
+    clear: both;
+    border: 1px solid black;
+    float: right;
+    width: 66%;
+    margin-right: 25px;
+}
+
+.img_ozono{
+    float: left;
+    width: 45%;
+    margin: 7px;
+    max-width: 100%;
+}
+
+#reflexion{
+    clear: both;
+    border: 1px solid black;
+    float: right;
+    width: 66%;
+    margin-right: 25px;
+}
+
+.video{
+    display: block;
+    margin: auto;
+    max-width: 100%;
+}
+
+#pie{
+    clear: both;
+    background-color: rgb(22,24,64);
+}
+
+.autor{
+    float: left;
+    width: 45%;
+    background-color: rgb(22,24,64);
+}
+
+.internet{
+    float: left;
+    width: 18%;
+    margin-top: 3px;
+    background-color: rgb(22,24,64);
+}
+.img_usuario{
+    float: left;
+    height: 85px;
+    width: 93px;
+    max-width: 100%;
+}
+
+.img_insta{
+    float: left;
+    height: 85px;
+    width: 93px;
+    max-width: 100%;
+}
+.img_gmail{
+    float: left;
+    height: 85px;
+    width: 93px;
+    max-width: 100%;
+}
+
+.img_facebook{
+    float: left;
+    height: 85px;
+    width: 93px;
+    max-width: 100%;
+}
+
+.logo_u{
+    float: left;
+    width: 37%;
+    background-color: rgb(22,24,64);
+}
+.img_ups{
+    display: block;
+    height: 172px;
+    width: 172px;
+    margin: auto;
+    max-width: 100%;
+}
