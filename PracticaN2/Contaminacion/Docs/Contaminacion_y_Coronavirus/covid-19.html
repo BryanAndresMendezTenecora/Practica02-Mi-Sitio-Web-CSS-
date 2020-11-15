@@ -5,11 +5,22 @@
         <meta name="keywords" content="COVID-19,coronavirus,contaminacion">
         <title>Contaminación y COVID-19</title>
         <link rel="icon" href="../../images/logo.jpg" sizes="16x16">
+        <link rel="stylesheet" href="../../Css/Estilo_Covid-19/style_covid.css">
     </head>
-    <body>
-        <header>
+    <body id="cuerpo">
+        <header id="cabecera">
             <h1>Contaminación y COVID-19</h1>
-            <nav>
+            <div class="buscador">
+                <input class="input_bus" name="text" placeholder="Buscar">
+                <img class="img_bus" src="../../images/buscador3.jpg"> 
+            </div>
+            <div class="imagenes">
+                <img class="img_1" src="../../images/usuario2.jpg">
+                <img class="img_google" src="../../images/google.png">
+                <img class="img_youtube" src="../../images/youtube.png">
+                <img class="img_twitter" src="../../images/twitter.png">
+            </div>
+            <nav id="menu">
                 <ul>
                     <li><a href="../../../index.html">Inicio</a></li>
                     <li><a href="../ContaminacionMetalesPesados/metales-pesados.html">Contaminación de los Metales Pesados</a></li>
@@ -20,8 +31,8 @@
                     <li><a href="../Problemas_del_medio_Ambiente/problemas.html">Problemas del medio Ambiente</a></li>
                 </ul>
             </nav>
-            <img src="../../images/covid.jpg" alt="COVID-19" width="550" height="400">
-            <div>
+            <div class="contenido">
+                <h2 class="cont">Contenido</h2>
                 <ol>
                     <li><a href="#alivio">Covid-19, un pequeño alivio al medio ambiente</a></li>
                     <li><a href="#china">China, menos emisiones durante la crisis del coronavirus</a></li>
@@ -30,6 +41,8 @@
                     <li><a href="enfrentar">Potencial para enfrentar el cambio climático</a></li>
                 </ol>
             </div>
+            <div class="introduccion">
+            <img class="img_medico" src="../../images/covid.jpg" alt="COVID-19">
             <p><strong><em>La pandemia del COVID-19</em></strong> ha removido los cimientos de toda una sociedad y, cuando termine el confinamiento, 
                 se abren ante nosotros multitud de preguntas de cuál será el nuevo paradigma social, económico, sanitario, 
                 educativo o incluso geopolítico que marcará el ritmo de la sociedad.</p>
@@ -37,13 +50,20 @@
             <p>Sin embargo, en medio de toda esta incertidumbre, por el momento sí hay un beneficiario inesperado del coronavirus: 
                 el planeta, ya que durante este período la calidad del aire ha mejorado en multitud de ciudades y se han reducido 
                 las emisiones de gases invernadero responsables del cambio climático.</p>
+           </div>
             <br>
+            <div class="not">
+                <h3>Actualidad:</h3>
+                <aside>
+                    <iframe class="y_actualidad" src="https://www.youtube.com/embed/PAfyOVk5evA"></iframe>
+                </aside>
+            </div>
         </header>
-        <section>
+        <section id="concepto">
             <h2>CONCEPTO:</h2>
             <article id="alivio">
                 <h2>Covid-19, un pequeño alivio al medio ambiente</h2>
-                <img src="../../images/planeta.jpg" alt="El planeta en cuarentena">
+                <img class="img_planeta" src="../../images/planeta.jpg" alt="El planeta en cuarentena">
                 <p>Según algunos expertos, se trata, sin planearlo, del <b>experimento a mayor escala jamás visto en términos de 
                     reducción de emisiones industriales.</b> Un “ensayo”, si podemos llamarlo así, que representa lo que en el 
                     futuro podríamos llegar a conseguir si todos los Gobiernos toman medidas globales para desarrollar una 
@@ -53,21 +73,23 @@
                     <cite><abbr>ESA</abbr>(Agencia Espacial Europea)</cite> revelan niveles de dióxido de nitrógeno, NO₂, notablemente más bajos 
                     que en el mismo período del año pasado.</p>
             </article>
-            <aside>
+            <div class="lateral">
+            <aside class="noticia1">
                 <h3>Pandemia de coronavirus: contador en tiempo real, mapa mundial, noticias</h3>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/NMre6IAAAiU"></iframe>
+                <iframe class="contador" src="https://www.youtube.com/embed/NMre6IAAAiU"></iframe>
             </aside>
-            <aside>
+            <aside class="noticia2">
                 <h3>Francia declara estado de emergencia</h3>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/AUadG1HkrMQ"></iframe>
+                <iframe class="emergencia" src="https://www.youtube.com/embed/AUadG1HkrMQ"></iframe>
             </aside>
+            </div>
         </section>
         <br>
-        <section>
+        <section id="primer_pais">
             <h2>&#8226;El primer pais con el virus</h2>
             <article id="china">
                 <h2>China, menos emisiones durante la crisis del coronavirus</h2>
-                <img src="../../images/china.jpg" alt="Personas con proteccion al virus" height="350" width="580">
+                <img class="img_china" src="../../images/china.jpg" alt="Personas con proteccion al virus">
                 <p>La ciudad china de Wuhan fue sometida a un estricto cierre de todas sus actividades y prohibió la movilidad 
                     de sus más de 11 millones de habitantes desde finales de enero a causa del nuevo coronavirus Covid-19. 
                     Wuhan acoge cientos de fábricas que suministran piezas de automóviles a las cadenas de suministro mundiales, 
@@ -81,29 +103,34 @@
             <h2>Efectos en Italia</h2>
             <article>
                 <h2>&#8226;Italia, disminución de las emisiones en el norte del país</h2>
-                <img src="../../images/ciervo.jpg" alt="Ciervos en la ciudad" height="300" width="500">
+                <img class="img_italia" src="../../images/ciervo.jpg" alt="Ciervos en la ciudad" height="300" width="500">
                 <p>El Norte de Italia es una de las zonas europeas que peor lo está pasando en la crisis del coronavirus y las medidas restrictivas, 
                     tanto en las actividades industriales como en la movilidad de sus ciudadanos, han sido cada vez más estrictas. 
                     Esta región italiana es uno de los puntos críticos de contaminación de Europa Occidental por su elevada industria.</p>
             </article>
         </section>
         <br>
-        <section>
+        <section id="recapacitar">
             <h2>El ser humano debe recapacitar</h2>
             <article id="realidad">
                 <h2>&#8226;Coronavirus, un baño de realidad</h2>
-                <img src="../../images/realidadcoronavirus.jpg" alt="Coronavirus" height="400" width="670">
+                <img class="img_realidad" src="../../images/realidadcoronavirus.jpg" alt="Coronavirus">
                 <p>Quizá el coronavirus nos ha dado un baño de realidad:<em>ha puesto fin a la idea de que somos invulnerables a los embates del planeta.</em>
                      Y el cambio climático, con todas sus consecuencias, será uno de ellos. Un aviso de que cuando no estamos preparados, las medidas 
                      reactivas solo te permiten elegir el mal menor.</p>
             </article>
+            <aside class="covid_noticias">
+                <h3>Mensaje de Donal Trump sobre la pandemia de Covid-19</h3>
+                <iframe class="y_noticia"  src="https://www.youtube.com/embed/zZxZpp44X74"></iframe>
+            </aside>
+            
         </section>
         <br>
         <section id="enfrentar">
             <h2>UNA GUÍA O EJEMPLO</h2>
-            <article>
+            <article class="arti_climatico">
                 <h2>Potencial para enfrentar el cambio climático</h2>
-                <img src="../../images/nitrogeno.jpg" alt="Reducción del nitrógeno" height="350" width="700">
+                <img class="img_nitrogeno" src="../../images/nitrogeno.jpg" alt="Reducción del nitrógeno">
                 <p>Ante la crisis de la pandemia leemos opiniones enfrentadas sobre qué mundo construiremos cuando llegue a su fin. Algunas voces 
                     presagian un periodo de contingencia que puede postergar las iniciativas para luchar contra la acción climática. Sin embargo, 
                     son muchos los que encuentran en este momento <b><em>una oportunidad para dar un verdadero giro ecológico y apostar por políticas 
@@ -112,12 +139,27 @@
                     más largo para confirmar si existe un patrón. Pero no hay duda de que nos llevan a pensar en el futuro, y en que <b>existe 
                     potencial para cambiar</b> el paradigma actual de la industria y poder atajar y mitigar las consecuencias del calentamiento global.</p>
             </article>
+           <aside class="noticia_climatico">
+               <h3>El coronavirus: ¿Un auxilio para la crisis climática?</h3>
+            <iframe class="y_climatico" src="https://www.youtube.com/embed/PUnxLR3cNug"></iframe>
+           </aside>
         </section>
-        <footer>
-            <p><b>Estudiante:</b> Bryan Andres Mendez Tenecora</p>
-            <p><b>Correo Electrónico:</b><a href="mailto:bmendezt@est.ups.edu.ec">bmendezt@est.ups.edu.ec</a></p>
-            <p><b>Telefono:</b><a href="tel:+593994625397">(593) 994625397</a></p>
-            <p> <small>&copy; Todos los derechos reservados al autor</small></p>
+        <footer id="pie">
+            <div class="autor">
+                <p><b>Estudiante:</b> Bryan Andres Mendez Tenecora</p>
+                <p><b>Correo Electrónico:</b><a href="mailto:bmendezt@est.ups.edu.ec">bmendezt@est.ups.edu.ec</a></p>
+                <p><b>Telefono:</b><a href="tel:+593994625397">(593) 994625397</a></p>
+                <p><small>&copy; Todos los derechos reservados al autor</small></p>
+            </div>
+            <div class="internet">
+                <a href="../../Docs/Contacto/contacto.html"><img class="img_usuario" src="../../images/usuario.jpg"></a>
+                <a href="https://www.instagram.com"><img class="img_insta" src="../../images/insta.jpg"></a>
+                <a href="https://mail.google.com"><img class="img_gmail" src="../../images/gmail.jpg"></a>
+                <a href="https://www.facebook.com"><img class="img_facebook" src="../../images/facebook.png"></a>
+            </div>
+             <div class="logo_u">
+                <a href="https://www.ups.edu.ec/"><img class="img_ups" src="../../images/ups.png">
+            </div>
         </footer>
     </body>
 </html>
