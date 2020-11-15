@@ -1,0 +1,86 @@
+@font-face{
+    font-family: MiFuente;
+    src: url(../../Fuente/IstokWeb-Regular.ttf);
+}
+* {
+    font-family: 'MiFuente';
+    margin-top: 20px;
+}
+
+#cuerpo{
+    background-color: rgb(81,197,193);
+}
+
+label {
+    display:block;
+    margin-top:20px;
+    letter-spacing:1px;
+}
+ 
+.principal1{
+    border:1px solid blue;
+    position: relative;
+    margin:0 auto;
+    width:510px;
+    color: black;   
+}
+
+ .img_usuario{
+    float: left;
+    width: 10%;
+    margin: 10px;
+}
+
+.img_insta{
+    float: right;
+    height: 30px;
+    width: 60px;
+    max-width: 100%;
+}
+.img_gmail{
+    float: right;
+    width: 10%;
+}
+
+.img_facebook{
+    float: right;
+    width: 10%;
+}
+
+
+.principal {
+    clear: both;
+    border: 1px solid black;
+    display:block;
+    margin:0 auto;
+    width:510px;
+    color: black;    
+}
+ 
+form {
+    margin:0 auto;
+    width:400px;
+}
+ 
+input, textarea {
+    width:380px;
+    height:27px;
+    background: white;
+    border:2px solid black;
+    padding:10px;
+    margin-top:5px;
+    font-size:10px;
+    
+}
+ 
+textarea {
+    height:150px;
+}
+ 
+#submit {
+    border: 1px solid black;
+    width:85px;
+    height:35px;
+    margin-top:20px;
+    cursor:pointer;
+}
